@@ -1,0 +1,30 @@
+{
+  "name": "chat-appilication",
+  "version": "1.0.0",
+  "description": "chat application and data management",
+  "main": "server.js",
+  "scripts": {
+    "test": "mocha --reporter spec",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://github.com"
+  },
+  "keywords": [
+    "riktam"
+  ],
+  "author": "Chinmay Pingale",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.1",
+    "chai": "^4.3.4",
+    "chai-http": "^4.3.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.2",
+    "mocha": "^9.1.4",
+    "mongoose": "^6.1.7",
+    "mysql": "^2.18.1",
+    "request": "^2.88.2"
+  }
+}

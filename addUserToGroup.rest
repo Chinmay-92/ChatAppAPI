@@ -1,0 +1,9 @@
+POST http://localhost:3000/addUserToGroup
+Content-Type: application/json
+
+{
+    "userId": 1,
+    "password": "admin",
+    "group": { "name": "chatroom4" },
+    "userIdToAdd": 2
+}

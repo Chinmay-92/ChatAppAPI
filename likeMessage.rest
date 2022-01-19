@@ -1,0 +1,9 @@
+POST http://localhost:3000/likeMessage
+Content-Type: application/json
+
+{
+    "userId": 1,
+    "password": "admin",
+    "group": { "name": "chatroom3" },
+    "messageId": 1
+}
